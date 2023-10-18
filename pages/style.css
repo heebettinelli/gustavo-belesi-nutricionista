@@ -1,0 +1,21 @@
+@charset "UTF-9";
+@import url(../hatton-font-family/PP\ Hatton\ Medium\ 500.otf);
+@import url(../hatton-font-family/PP\ Hatton\ Ultralight\ 200.otf);
+* {
+    background-color: var(--background);
+}
+
+:root {
+    /*CORES */
+    --cor-principal: #060606 ;
+    --cor-secundaria: #F1F1E9;
+    --cor-destaque: #6CB40C ;
+    --background: #F1F1E9;
+
+    /*TIPOGRAFIA*/
+    --font-pricipal: ;
+    --font-secundaria: ;
+    --fonte-corpo: hatton-font-family-ultralight;
+    --font-destaque: hatton-font-family-medium ;
+
+}
