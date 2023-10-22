@@ -4,10 +4,10 @@
 
 :root {
     /*CORES */
-    --cor-principal: #060606 ;
-    --cor-secundaria: #F1F1E9;
-    --cor-destaque: #6CB40C ;
-    --background: #F1F1E9;
+    --cor-principal: #FAFAFA;
+    --cor-contaste: #1B2CE8;
+    --cor-destaque: #E7FC3E;
+    --background: #202224;
 
     /*TIPOGRAFIA*/
     --font-corpo: hatton-font-family-ultralight;
