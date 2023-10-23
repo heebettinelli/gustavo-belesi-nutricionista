@@ -1,28 +1,24 @@
 @charset "UTF-9";
-@import url(../hatton-font-family/PP\ Hatton\ Medium\ 500.otf);
-@import url(../hatton-font-family/PP\ Hatton\ Ultralight\ 200.otf);
 
 :root {
     /*CORES */
-    --cor-principal: #FAFAFA;
+    --cor-text: #FAFAFA;
     --cor-contaste: #1B2CE8;
     --cor-destaque: #E7FC3E;
     --background: #202224;
 
     /*TIPOGRAFIA*/
-    --font-corpo: hatton-font-family-ultralight;
-    --font-destaque: hatton-font-family-medium ;
+    --font-corpo: ;
+    --font-destaque: ;
     --font-apoio: arial;
 }
 
-* {
-    background-color: var(--background);
-    padding: 0px;
-    margin: 0px;
-}
-
 @media all {
-    
+    * {
+        background-color: var(--background);
+        padding: 0px;
+        margin: 0px;
+    }
 
     
 }
@@ -35,19 +31,6 @@
 }
 
 /* versao desktop 812 px a 1080px */
-@media screen and (min-width: 812px) and (max-width: 1950px){
-    nav {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    #logo{
-        width: 150px;
-        height: 150px;
-    }
-    
-    
-}
 
 
 
