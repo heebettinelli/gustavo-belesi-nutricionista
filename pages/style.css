@@ -22,35 +22,14 @@
 }
 
 @media all {
-    a{
-        text-decoration: none;
-    }
-
-    body{
-        font-family: var(--font-corpo);
-    }
-
-    h1{
-        font-family: var(--font-destaque);
-    }
+    
 
     
 }
 
 /* versao mobile 360px a 813px */
 @media screen and (min-width: 360px) and (max-width: 812px){
-    body{
-        background-color: var(--background);
-    }
-
-    header{
-        position: fixed;
-    }
-   
-    #logo{
-        width: 100px;
-        height: 100px;
-    }
+    
 
 
 }
