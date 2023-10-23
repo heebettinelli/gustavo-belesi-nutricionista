@@ -10,23 +10,134 @@
     /*TIPOGRAFIA*/
     --font-corpo: ;
     --font-destaque: ;
-    --font-apoio: arial;
+    --font-apoio: ;
 }
 
 @media all {
     * {
-        background-color: var(--background);
         padding: 0px;
         margin: 0px;
     }
+    body{
+        background-color: var(--background);
+    }
 
+   p{
+    color: var(--cor-text);
+   }
 }
 
 /* versao mobile 360px a 813px */
 @media screen and (min-width: 360px) and (max-width: 812px){
-    
+    header{
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+    }
+    .logo{
+        width: 120px;
+        height: 100px;
+    }
+    .Header{
+        color: var(--cor-destaque);
+    }
+    .Slogan{
+        color: var(--cor-destaque);
+    }
 
-
+    .Cta > h1{
+        text-align: center;
+        color: var(--cor-destaque);
+        font-size: 28px;
+        padding: 5%;
+        margin: auto;
+    }
+    .Cta > input{
+        display: block;
+        background-color: var(--cor-destaque);
+        color: var(--background);
+        align-items: center;
+        width: 25vw;
+        height: 4vh;
+        border: none;
+        border-radius: 5px;
+        margin: auto;
+        margin-bottom: 20px;
+        
+    }
+    .blue{
+        background-color: var(--cor-contaste);
+    }
+    .blue > h1 {
+        color: var(--cor-destaque);
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 28px;
+    }
+    .blue > p {
+        text-align: center;
+        font-size: 18px;
+        padding: 5px 20px 20px 20px;
+    }
+    .OSegredo > h1 {
+        color: var(--cor-destaque);
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 28px;
+    }
+    .OSegredo > p {
+        color: var(--cor-text);
+        text-align: center;
+        font-size: 18px;
+        padding: 5px 20px 20px 20px;
+    }
+    ul{
+        color: var(--cor-text);
+        text-align: center;
+        padding: 5px 20px 20px 20px;
+    }
+    .Avaliacoes{
+        background-color: var(--cor-destaque);
+    }
+    .Avaliacoes > h1 {
+        color: var(--cor-contaste);
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 28px;
+    }
+    .Avaliacoes > img{
+        display: flex;
+    }
+    img.first{
+        justify-content: center;
+    }
+    img.second{
+        justify-content: left;
+    }
+    img.third{
+        justify-content: right;
+    }
+    .Acompanhamento > h1 {
+        color: var(--cor-destaque);
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 28px;
+    }
+    .Acompanhamento > p {
+        color: var(--cor-text);
+        text-align: center;
+        font-size: 18px;
+        padding: 5px 20px 20px 20px;
+    }
+    .Acompanhamento > h3 {
+        color: var(--cor-contaste);
+        padding-left: 20px;
+        margin: auto;
+    }
 }
 
 /* versao desktop 813px a 1200px */
