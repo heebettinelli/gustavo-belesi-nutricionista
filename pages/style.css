@@ -1,5 +1,4 @@
 @charset "UTF-9";
-@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 
 :root {
     /*CORES */
@@ -10,7 +9,7 @@
 
     /*TIPOGRAFIA*/
     --font-corpo: Arial, Helvetica, sans-serif;
-    --font-destaque: 'Iceberg', sans-serif;;
+    --font-destaque: 'Times New Roman', Times, serif;
    
 }
 
@@ -19,51 +18,78 @@
         padding: 0px;
         margin: 0px;
     }
+
+    header{
+        width: 100vw;
+        height: 15vh;
+        color: var(--cor-destaque);
+    }
+
     body{
         background-color: var(--background);
     }
 
-   p, ul {
-    color: var(--cor-text);
-    font-family: var(--font-corpo);
-   }
-   h1{
-    font-family: var(--font-destaque);
-    font-size: 32px;
-   }
-   h3{
-    font-family: var(--font-destaque);
-   }
+    p, ul {
+        color: var(--cor-text);
+        font-family: var(--font-corpo);
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    h1{
+        color: var(--cor-destaque);
+        font-family: var(--font-destaque);
+        font-size: 32px;
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    h3{
+        font-family: var(--font-destaque);
+        font-size: 20px;
+        color: var(--cor-contaste);
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    footer{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        color: var(--cor-text);
+    }
 }
 
 /* versao mobile 360px a 813px */
 @media screen and (min-width: 360px) and (max-width: 812px){
-    header{
-        width: 100vw;
-        height: 15vh;
-    }
-
-    img.logo{
+    .logo{
         width: 120px;
         height: 100px;
     }
 
-    header > h1 {
+    h1#Slogan{
         color: var(--cor-destaque);
-    }
-
-    header > h3 {
-        color: var(--cor-destaque);
-    }
-
-    .Cta > h1{
-        text-align: center;
-        color: var(--cor-destaque);
+        padding-bottom: 3px;
         font-size: 36px;
-        padding: 5%;
-        margin: auto;
     }
-    .Cta > input{
+
+    h3#Slogan {
+        color: var(--cor-destaque);
+        padding-top: 0px;
+        font-weight: lighter;
+    }
+
+    .Cta {
+        width: 100vw;
+        height: 200px;
+        padding-top: 40px;
+        
+    }
+
+    input {
         display: block;
         background-color: var(--cor-destaque);
         color: var(--background);
@@ -76,91 +102,55 @@
         margin-bottom: 20px;
         
     }
+
     .blue{
         background-color: var(--cor-contaste);
         height: 250px;
+        margin: auto;
+        text-align: center;
     }
 
-    .blue > h1 {
-        color: var(--cor-destaque);
-        padding: 20px;
-        margin: auto;
-        text-align: center;
-        font-size: 32px;
-    }
-    .blue > p {
-        text-align: center;
-        font-size: 18px;
-        padding: 10px;
-    }
-    .OSegredo > h1 {
-        color: var(--cor-destaque);
-        padding: 20px;
-        margin: auto;
-        text-align: center;
-        font-size: 32px;
-    }
-    .OSegredo > p {
-        color: var(--cor-text);
-        text-align: center;
-        font-size: 18px;
-        padding: 5px 20px 20px 20px;
-    }
-    ul{
+    ul {
         color: var(--cor-text);
         text-align: center;
         padding: 5px 20px 20px 20px;
     }
+
     .Avaliacoes {
         background-color: var(--cor-destaque);
         position: relative;
         width: 100vw;
         height: 70vh;
     }
-    .Avaliacoes > h1 {
+
+    #Comentarios {
         color: var(--cor-contaste);
-        padding: 20px;
-        margin: auto;
-        text-align: center;
+        font-family: var(--font-destaque);
         font-size: 32px;
+        padding: 20px;
+        text-align: center;
+        margin: auto;
     }
+
     img {
         position: absolute;
     }
     
-    img.first{
-        top: 100px;
+    .first{
+        top: 20%;
         left: -40%;
-        
     }
-    img.second{
-        top: 60px;
+
+    .second{
+        top: 10%;
         left: -10%;
-       
     }
-    img.third{
-        top: 100px;
+
+    .third{
+        top: 20%;
         left: 20%;
-       
     }
-    .Acompanhamento > h1 {
-        color: var(--cor-destaque);
-        padding: 20px;
-        margin: auto;
-        text-align: center;
-        font-size: 32px;
-    }
-    .Acompanhamento > p {
-        color: var(--cor-text);
-        text-align: center;
-        font-size: 18px;
-        padding: 5px 20px 20px 20px;
-    }
-    .Acompanhamento > h3 {
-        color: var(--cor-contaste);
-        padding-left: 20px;
-        margin: auto;
-    }
+
     
 }
 
