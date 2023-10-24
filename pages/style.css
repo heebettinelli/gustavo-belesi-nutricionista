@@ -1,4 +1,5 @@
 @charset "UTF-9";
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 
 :root {
     /*CORES */
@@ -8,9 +9,9 @@
     --background: #202224;
 
     /*TIPOGRAFIA*/
-    --font-corpo: ;
-    --font-destaque: ;
-    --font-apoio: ;
+    --font-corpo: Arial, Helvetica, sans-serif;
+    --font-destaque: 'Iceberg', sans-serif;;
+   
 }
 
 @media all {
@@ -22,8 +23,16 @@
         background-color: var(--background);
     }
 
-   p{
+   p, ul {
     color: var(--cor-text);
+    font-family: var(--font-corpo);
+   }
+   h1{
+    font-family: var(--font-destaque);
+    font-size: 32px;
+   }
+   h3{
+    font-family: var(--font-destaque);
    }
 }
 
@@ -32,16 +41,18 @@
     header{
         width: 100vw;
         height: 15vh;
-        display: flex;
     }
-    .logo{
+
+    img.logo{
         width: 120px;
         height: 100px;
     }
-    .Header{
+
+    header > h1 {
         color: var(--cor-destaque);
     }
-    .Slogan{
+
+    header > h3 {
         color: var(--cor-destaque);
     }
 
@@ -69,7 +80,7 @@
         background-color: var(--cor-contaste);
         height: 250px;
     }
-    
+
     .blue > h1 {
         color: var(--cor-destaque);
         padding: 20px;
@@ -150,6 +161,7 @@
         padding-left: 20px;
         margin: auto;
     }
+    
 }
 
 /* versao desktop 813px a 1200px */
