@@ -48,7 +48,7 @@
     .Cta > h1{
         text-align: center;
         color: var(--cor-destaque);
-        font-size: 28px;
+        font-size: 36px;
         padding: 5%;
         margin: auto;
     }
@@ -67,25 +67,27 @@
     }
     .blue{
         background-color: var(--cor-contaste);
+        height: 250px;
     }
+    
     .blue > h1 {
         color: var(--cor-destaque);
         padding: 20px;
         margin: auto;
         text-align: center;
-        font-size: 28px;
+        font-size: 32px;
     }
     .blue > p {
         text-align: center;
         font-size: 18px;
-        padding: 5px 20px 20px 20px;
+        padding: 10px;
     }
     .OSegredo > h1 {
         color: var(--cor-destaque);
         padding: 20px;
         margin: auto;
         text-align: center;
-        font-size: 28px;
+        font-size: 32px;
     }
     .OSegredo > p {
         color: var(--cor-text);
@@ -98,34 +100,44 @@
         text-align: center;
         padding: 5px 20px 20px 20px;
     }
-    .Avaliacoes{
+    .Avaliacoes {
         background-color: var(--cor-destaque);
+        position: relative;
+        width: 100vw;
+        height: 70vh;
     }
     .Avaliacoes > h1 {
         color: var(--cor-contaste);
         padding: 20px;
         margin: auto;
         text-align: center;
-        font-size: 28px;
+        font-size: 32px;
     }
-    .Avaliacoes > img{
-        display: flex;
+    img {
+        position: absolute;
     }
+    
     img.first{
-        justify-content: center;
+        top: 100px;
+        left: -40%;
+        
     }
     img.second{
-        justify-content: left;
+        top: 60px;
+        left: -10%;
+       
     }
     img.third{
-        justify-content: right;
+        top: 100px;
+        left: 20%;
+       
     }
     .Acompanhamento > h1 {
         color: var(--cor-destaque);
         padding: 20px;
         margin: auto;
         text-align: center;
-        font-size: 28px;
+        font-size: 32px;
     }
     .Acompanhamento > p {
         color: var(--cor-text);
