@@ -63,8 +63,8 @@
     }
 }
 
-/* versao mobile 360px a 813px */
-@media screen and (min-width: 360px) and (max-width: 812px){
+/* versao mobile 360px a 768px */
+@media screen and (min-width: 360px) and (max-width: 768px){
     .logo{
         width: 120px;
         height: 100px;
@@ -157,13 +157,3 @@
 
     
 }
-
-/* versao desktop 813px a 1200px */
-@media screen and (min-width: 813px) and (max-width: 1020px){
-
-    
-}
-
-
-
-
