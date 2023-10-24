@@ -66,8 +66,8 @@
     }
 
     .logo{
-        width: 120px;
-        height: 100px;
+        width: 23vw;
+        height: 20vh;
     }
 
     h1#Slogan{
@@ -158,11 +158,11 @@
     
 }
 
-/* versao mobile 768px a 992px */
+/* versao mobile 769px a 992px */
 @media screen and (min-width: 769px) and (max-width: 992px){
     .logo{
-        width: 230px;
-        height: 200px;
+        width: 23vw;
+        height: 20vh;
     }
 
     header{
@@ -257,3 +257,4 @@
     }
 
 }
+
