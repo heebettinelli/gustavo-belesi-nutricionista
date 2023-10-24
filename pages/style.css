@@ -23,12 +23,21 @@
         background-color: var(--background);
     }
 
-    p, ul {
-        color: var(--cor-text);
-        font-family: var(--font-corpo);
+
+    footer{
         text-align: center;
-        font-size: 18px;
-        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        color: var(--cor-text);
+    }
+}
+
+/* versao mobile 360px a 768px */
+@media screen and (min-width: 360px) and (max-width: 768px){
+    header{
+        width: 100vw;
+        height: 15vh;
+        color: var(--cor-destaque);
     }
 
     h1{
@@ -49,25 +58,9 @@
         padding-top: 20px;
     }
 
-    footer{
-        text-align: center;
-        padding-top: 50px;
-        padding-bottom: 10px;
-        color: var(--cor-text);
-    }
-}
-
-/* versao mobile 360px a 768px */
-@media screen and (min-width: 360px) and (max-width: 768px){
-    header{
-        width: 100vw;
-        height: 15vh;
-        color: var(--cor-destaque);
-    }
-
     .logo{
-        width: 23vw;
-        height: 20vh;
+        width: 25vw;
+        height: 17vh;
     }
 
     h1#Slogan{
@@ -91,6 +84,14 @@
 
     a {
         text-decoration: none;
+    }
+
+    p, ul {
+        color: var(--cor-text);
+        font-family: var(--font-corpo);
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
     }
 
     input {
@@ -158,11 +159,29 @@
     
 }
 
-/* versao mobile 769px a 992px */
+/* versao tablet 769px a 992px */
 @media screen and (min-width: 769px) and (max-width: 992px){
     .logo{
         width: 23vw;
         height: 20vh;
+    }
+
+    h1{
+        color: var(--cor-destaque);
+        font-family: var(--font-destaque);
+        font-size: 32px;
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    h3{
+        font-family: var(--font-destaque);
+        font-size: 20px;
+        color: var(--cor-contaste);
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
     }
 
     header{
@@ -188,6 +207,14 @@
         height: 200px;
         padding-top: 40px;
         
+    }
+
+    p, ul {
+        color: var(--cor-text);
+        font-family: var(--font-corpo);
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
     }
 
     a {
@@ -258,3 +285,132 @@
 
 }
 
+/* versao desktop 993px a 1950px */
+@media screen and (min-width: 993px) and (max-width: 1950px){
+    .logo{
+        width: 20vw;
+        height: 20vh;
+    }
+
+    h1{
+        color: var(--cor-destaque);
+        font-family: var(--font-destaque);
+        font-size: 42px;
+        padding: 25px;
+        text-align: center;
+        margin: auto;
+    }
+
+    h3{
+        font-family: var(--font-destaque);
+        font-size: 28px;
+        color: var(--cor-contaste);
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    header{
+        width: 100vw;
+        height: 20vh;
+        color: var(--cor-destaque);
+    }
+
+    h1#Slogan{
+        color: var(--cor-destaque);
+        padding-bottom: 3px;
+        font-size: 52px;
+    }
+
+    h3#Slogan {
+        color: var(--cor-destaque);
+        padding-top: 0px;
+        font-weight: lighter;
+    }
+
+    .Cta {
+        width: 100vw;
+        height: 250px;
+        padding-top: 90px;
+    }
+
+    p, ul {
+        color: var(--cor-text);
+        font-family: var(--font-corpo);
+        text-align: center;
+        font-size: 24px;
+        padding: 40px;
+    }
+
+    #cta {
+        font-size: 42px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    input {
+        display: block;
+        background-color: var(--cor-destaque);
+        color: var(--background);
+        align-items: center;
+        width: 15vw;
+        height: 6vh;
+        border: none;
+        border-radius: 5px;
+        margin: auto;
+        margin-bottom: 20px;
+        
+    }
+
+    .blue{
+        background-color: var(--cor-contaste);
+        height: 50vh;
+        margin: auto;
+        text-align: center;
+    }
+
+    ul {
+        color: var(--cor-text);
+        text-align: center;
+        padding: 5px 20px 20px 20px;
+    }
+
+    .Avaliacoes {
+        background-color: var(--cor-destaque);
+        position: relative;
+        width: 100vw;
+        height: 80vh;
+    }
+
+    #Comentarios {
+        color: var(--cor-contaste);
+        font-family: var(--font-destaque);
+        font-size: 42px;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+    }
+
+    img {
+        position: absolute;
+    }
+    
+    .first{
+        top: 25%;
+        left: 9%;
+    }
+
+    .second{
+        top: 15%;
+        left: 30%;
+    }
+
+    .third{
+        top: 25%;
+        left: 50%;
+    }
+
+
+}
