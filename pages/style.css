@@ -89,6 +89,10 @@
         
     }
 
+    a {
+        text-decoration: none;
+    }
+
     input {
         display: block;
         background-color: var(--cor-destaque);
