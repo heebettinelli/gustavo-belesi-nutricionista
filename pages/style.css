@@ -19,12 +19,6 @@
         margin: 0px;
     }
 
-    header{
-        width: 100vw;
-        height: 15vh;
-        color: var(--cor-destaque);
-    }
-
     body{
         background-color: var(--background);
     }
@@ -65,6 +59,12 @@
 
 /* versao mobile 360px a 768px */
 @media screen and (min-width: 360px) and (max-width: 768px){
+    header{
+        width: 100vw;
+        height: 15vh;
+        color: var(--cor-destaque);
+    }
+
     .logo{
         width: 120px;
         height: 100px;
@@ -156,4 +156,104 @@
     }
 
     
+}
+
+/* versao mobile 768px a 992px */
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .logo{
+        width: 230px;
+        height: 200px;
+    }
+
+    header{
+        width: 100vw;
+        height: 20vh;
+        color: var(--cor-destaque);
+    }
+
+    h1#Slogan{
+        color: var(--cor-destaque);
+        padding-bottom: 3px;
+        font-size: 36px;
+    }
+
+    h3#Slogan {
+        color: var(--cor-destaque);
+        padding-top: 0px;
+        font-weight: lighter;
+    }
+
+    .Cta {
+        width: 100vw;
+        height: 200px;
+        padding-top: 40px;
+        
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    input {
+        display: block;
+        background-color: var(--cor-destaque);
+        color: var(--background);
+        align-items: center;
+        width: 25vw;
+        height: 4vh;
+        border: none;
+        border-radius: 5px;
+        margin: auto;
+        margin-bottom: 20px;
+        
+    }
+
+    .blue{
+        background-color: var(--cor-contaste);
+        height: 250px;
+        margin: auto;
+        text-align: center;
+    }
+
+    ul {
+        color: var(--cor-text);
+        text-align: center;
+        padding: 5px 20px 20px 20px;
+    }
+
+    .Avaliacoes {
+        background-color: var(--cor-destaque);
+        position: relative;
+        width: 100vw;
+        height: 70vh;
+    }
+
+    #Comentarios {
+        color: var(--cor-contaste);
+        font-family: var(--font-destaque);
+        font-size: 32px;
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    img {
+        position: absolute;
+    }
+    
+    .first{
+        top: 20%;
+        left: -6%;
+    }
+
+    .second{
+        top: 10%;
+        left: 14%;
+    }
+
+    .third{
+        top: 20%;
+        left: 34%;
+    }
+
 }
