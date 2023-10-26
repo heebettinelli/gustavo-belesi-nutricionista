@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+:root {
+   /*CORES */
+   --cor-text: #FAFAFA;
+   --cor-contaste: #1B2CE8;
+   --cor-destaque: #E7FC3E;
+   --background: #202224;
+
+   /*TIPOGRAFIA*/
+   --font-corpo: Arial, Helvetica, sans-serif;
+   --font-destaque: 'Times New Roman', Times, serif;
+}
+
+@media all {
+    *{
+        box-sizing: border-box;
+    }
+}
+
+/* versao mobile 360px a 813px */
+
+@media screen and (min-width: 360px) and (max-width: 812px) {
+    
+    .logo {
+        width: 45vw;
+        height:25vh;
+        margin: 0px;
+    }
+    
+    body{
+        background-color: var(--background);
+        background-size: cover;
+    }
+    
+    h2{
+        color: var(--cor-secundaria);
+        font-family: var(--font-destaque);
+        text-align: center;
+        font-size: 18px;
+        padding: 15px; 
+    }
+
+    h1#Slogan{
+        color: var(--cor-destaque);
+        font-size: 36px;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+
+    h3#Slogan {
+        color: var(--cor-destaque);
+        font-weight: lighter;
+        margin: 0px;
+        padding-bottom: 35px;
+    }
+
+    main{
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        background-color: var(--cor-base);
+        width: 80vw;
+        height: 90vh;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .flex-container {
+        display: block;
+        position: relative;
+    }
+
+    .site {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+        background-color: var(--cor-destaque);
+        border-radius: 10px;
+        border: 3px solid var(--cor-contaste);
+        margin-top: 10px;
+        
+    }
+
+    .duvidas {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+        background-color: var(--cor-destaque);
+        border-radius: 10px;
+        border: 3px solid var(--cor-contaste);
+        margin-top: 10px;
+    }
+
+    .agendamentos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+        background-color: var(--cor-destaque);
+        border-radius: 10px;
+        border: 3px solid var(--cor-contaste);
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+    }
+   
+}
+
+/* versao desktop 812 px a 1080px */
+
+@media screen and (min-width: 812px) and (max-width: 1950px) {
+    .logo {
+        width: 28vw;
+        height:25vh;
+        margin: 0px;
+    }
+    
+    body{
+        background-color: var(--background);
+        background-size: cover;
+    }
+    
+    h2{
+        color: var(--cor-secundaria);
+        font-family: var(--font-destaque);
+        text-align: center;
+        font-size: 18px;
+        padding: 15px; 
+    }
+
+    h1#Slogan{
+        color: var(--cor-destaque);
+        font-size: 42px;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+
+    h3#Slogan {
+        color: var(--cor-destaque);
+        font-weight: lighter;
+        margin: 0px;
+        padding-bottom: 35px;
+    }
+
+    main{
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        background-color: var(--cor-base);
+        width: 80vw;
+        height: 90vh;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .flex-container {
+        display: block;
+        position: relative;
+    }
+
+    .site {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+        background-color: var(--cor-destaque);
+        border-radius: 10px;
+        border: 3px solid var(--cor-contaste);
+        margin-top: 10px;
+        
+    }
+
+    .duvidas {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+        background-color: var(--cor-destaque);
+        border-radius: 10px;
+        border: 3px solid var(--cor-contaste);
+        margin-top: 10px;
+    }
+
+    .agendamentos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+        background-color: var(--cor-destaque);
+        border-radius: 10px;
+        border: 3px solid var(--cor-contaste);
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+    }
+    
+}
+    
